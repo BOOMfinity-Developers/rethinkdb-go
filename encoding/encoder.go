@@ -1,4 +1,4 @@
-// This code is based on encoding/json and gorilla/schema
+// This code is based on github.com/segmentio/encoding/json and gorilla/schema
 
 package encoding
 

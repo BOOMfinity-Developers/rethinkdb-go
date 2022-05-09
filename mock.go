@@ -2,8 +2,8 @@ package rethinkdb
 
 import (
 	"encoding/binary"
-	"encoding/json"
 	"fmt"
+	"github.com/segmentio/encoding/json"
 	"gopkg.in/rethinkdb/rethinkdb-go.v6/encoding"
 	"net"
 	"reflect"

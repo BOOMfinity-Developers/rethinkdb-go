@@ -2,7 +2,7 @@ package rethinkdb
 
 import (
 	"encoding/base64"
-	"encoding/json"
+	"github.com/segmentio/encoding/json"
 
 	"reflect"
 

@@ -3,8 +3,8 @@ package rethinkdb
 import (
 	"crypto/tls"
 	"encoding/binary"
-	"encoding/json"
 	"fmt"
+	"github.com/segmentio/encoding/json"
 	"net"
 	"sync/atomic"
 	"time"

@@ -217,7 +217,7 @@ func newPtrDecoder(dt, st reflect.Type, blank bool) decoderFunc {
 }
 
 func unmarshalerDecoder(dv, sv reflect.Value) error {
-	// modeled off of https://golang.org/src/encoding/json/decode.go?#L325
+	// modeled off of https://golang.org/src/github.com/segmentio/encoding/json/decode.go?#L325
 	if dv.Kind() != reflect.Ptr && dv.Type().Name() != "" && dv.CanAddr() {
 		dv = dv.Addr()
 	}

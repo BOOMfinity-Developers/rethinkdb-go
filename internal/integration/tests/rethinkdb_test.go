@@ -1,9 +1,9 @@
 package tests
 
 import (
-	"encoding/json"
 	"flag"
 	"fmt"
+	"github.com/segmentio/encoding/json"
 	"math/rand"
 	"os"
 	"runtime"
